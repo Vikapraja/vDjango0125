@@ -9,6 +9,7 @@ How to install Django Software :-
 #Creating virtual environment
 -------------------------------
 =>Create a folder and open in cmd and run comamnd [python -m virtualenv myenv]
+
 =>After making virtual environment :-
 	i)	Lib		(folder)	
 	ii)	Scripts		(folder)
@@ -17,22 +18,31 @@ How to install Django Software :-
 	v)	pyvenv		(Configration source file)
 
 =>Go On myenv\scripts and activate in cmd by [activate] ,it command are in scripts folder
+
 =>[deactivate] for deactivate virtual environment, 
+
 =>Make src folder in myenv and in it install django [pip install django]
+
 =>To know version of django [pip freeze], after installation folder are be empty
+
 =>now make your project in src
 
 2.Direct
 
 ===============================================================
 #project creation
-=>After django stallation:-
-	i)
+=>After django stallation
+
 =>open any folder(src) in cmd to make django project
+
 =>run command [djando-admin startproject project-name(mysite)]
+
 =>you should see mysite folder in src
+
 =>and you can see mysite folder again and manage.py in mysite(project) folder
+
 =>1)manage.py(package-folder) is reposible to runs and stop django's server 
+
 =>2)in mysite\mysite you can see 
 	i)	__init__.py	(blank[should not be delete, it initialize package-folder(manage.py)])
 	ii)	asgi.py		(never make changes at code time)
@@ -41,6 +51,7 @@ How to install Django Software :-
 	v)	wsgi.py		(webs erver getway interface, for server configration,it should be use at host time otherwise don'nt change it)
 
 =>now make app in project-folder(mysite) by [python manage.py startapp appname(demo)] 
+
 =>After making app in project django add (2 entity)
 	i)	appname		(folder)
 	ii)	db.sqlite3	(sqlite3-database file)	
